@@ -1,0 +1,30 @@
+a.g:link {
+	text-decoration: none;
+	color: #0000FF;
+	font-size: 13px;
+}
+
+a.g:visited {
+	text-decoration: none;
+	color: #0000FF;
+	font-size: 13px;
+}
+
+a.g:hover {
+	text-decoration: none;
+	color: #FF0000;
+	font-size: 13px;
+}
+
+.gray {
+	color: #666666
+}
+
+.f12 {
+	font-size: 14px
+}
+
+.box {
+	padding: -2px;
+	border: 1px solid #CCC
+}

@@ -1,0 +1,55 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="unqualified">
+    <element name="service">
+        <complexType>
+            <all>
+                <element name="head">
+                    <complexType>
+                        <all>
+                            <element name="tran_id" type="string"/>
+                            <element name="service_id" type="string"/>
+                            <element name="condition" type="string"/>
+                            <element name="rtn_code" type="string"/>
+                            <element name="rtn_msg" type="string"/>
+                            <element name="operation" type="string"/>
+                            <element name="systemCode" type="string"/>
+                            <element name="filepath" type="string"/>
+                            <element name="user" type="string"/>
+                            <element name="password" type="string"/>
+                            <element name="instanceId" type="string"/>
+                        </all>
+                    </complexType>
+                </element>
+                <element name="body">
+                    <complexType>
+                        <all>
+                            <element name="ROOT">
+                                <complexType>
+                                    <all>
+                                        <element name="USER">
+                                            <complexType>
+                                                <all>
+                                                    <element name="ID" type="string"/>
+                                                    <element name="NAME" type="string"/>
+                                                    <element name="AGE" type="int"/>
+                                                    <element name="BIRTHDAY" type="date"/>
+                                                </all>
+                                            </complexType>
+                                        </element>
+                                        <element name="ROLE">
+                                            <complexType>
+                                                <all>
+                                                    <element name="FID" type="string"/>
+                                                    <element name="RID" type="string"/>
+                                                </all>
+                                            </complexType>
+                                        </element>
+                                    </all>
+                                </complexType>
+                            </element>
+                        </all>
+                    </complexType>
+                </element>
+            </all>
+        </complexType>
+    </element>
+</schema>
